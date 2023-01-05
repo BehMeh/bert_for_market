@@ -52,6 +52,7 @@ if __name__ == '__main__':
     test_symbol = ['IWM']
     datasource = 'yfinance'
     mode = 'test'
+    #testing
     pnl_calculation_length = 1
     # mygym = BertGym(True, start_date, end_date, 0)
     my_gym_spy = BertGym(True, start_date, end_date, mode, pnl_calculation_length=pnl_calculation_length, test_symbol=test_symbol,
